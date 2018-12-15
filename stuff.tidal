@@ -1,2 +1,40 @@
-d1 $ sound "bd"
+d1 silence
+d1 $ sound "hh:2 hh:2*60 hh:3/10 hh:2/30 hh:4" # gain "1 0.5 0.7 1 ~ 1.2 0.5 1 1 "
 
+d2 silence
+d2 $ sound "~ ~[hh:7*18 ~ ~ ~  ~~hh:5*21 ~ ] ~ ~ ~ ~" # gain 0.9
+d2 $ sound "~ hh:3*20 ~ hh:5*20 ~ ~ hh:5*30 hh:7*30 ~ ~" # gain 0.8
+
+d3 silence
+d3 $ sound "hh:4*15 ~ ~ ~" # gain "0.9" # speed 2
+d3 $ sound "hh:4*16 ~ ~ ~" # gain "0.9" # speed 2
+d3 $ sound "hh:4*19 ~ ~ ~" # gain "0.9" # speed 2
+d3 $ sound "hh:4*21 ~ ~ ~" # gain "0.9" # speed 2
+d3 $ sound "hh:4*22 ~ ~ ~" # gain "0.9" # speed 2
+d3 $ sound "hh:4*25 ~ ~ ~" # gain "0.9" # speed 2
+
+d4 silence
+d4 $ sound "bd:3*2"
+
+d5 silence
+d5 $ sound "arpy*4" # gain "0.65" #speed 0.5
+
+d6 silence
+d6 $ sound "hh*8" # crush "4"
+
+d7 silence
+d7 $ sound "sd:5" # gain 0.8
+d7 $ sound "sd:5(1,8)" # gain 0.8
+
+d8 silence
+d8 $ e 5 8 $ midinote "60 62*2" # s "superchip" # gain 0.7 # sustain "0.2"
+d8 $ e 5 8 $ midinote "60 62*2 50*3 41*5" # s "superchip" # gain 0.7 # sustain "0.6 10 0.5"
+
+hush
+d1 silence
+d2 silence
+d3 silence
+d4 silence
+d5 silence
+d6 silence
+d7 silence
